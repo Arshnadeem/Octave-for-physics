@@ -1,0 +1,31 @@
+# ===== Octave / MATLAB =====
+*.asv
+*.oct
+*.mex*
+*.mat
+*.log
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== Editor files =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== OS files =====
+.DS_Store
+Thumbs.db
+
+# ===== Python (if used) =====
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# ===== Output / temp =====
+output/
+tmp/
+cache/
