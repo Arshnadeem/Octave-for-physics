@@ -10,11 +10,15 @@ z = sin(sqrt(x.^2 + y.^2));
 
 figure;
 surf(x, y, z);
+#view(0, 90);
+
 
 xlabel('X');
 ylabel('Y');
 zlabel('Z');
 title('3D Surface Plot: sin(sqrt(x^2 + y^2))');
 
-shading interp;
-colorbar;
+#shading interp;
+#colorbar;
+colormap jet;
+

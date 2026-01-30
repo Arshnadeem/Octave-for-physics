@@ -22,6 +22,10 @@ disp('Accessing elements:');
 disp(v1(3));   % 3rd element
 disp(v2(4));   % 4th element
 
+fprintf('\n\n');
+fprintf('\n\n');
+
+
 disp('--- VECTOR OPERATIONS ---');
 
 v_sum = v1 + v1;
@@ -32,6 +36,9 @@ disp(v_sum);
 
 disp('v1 .* v1 =');
 disp(v_mul);
+
+fprintf('\n\n');
+fprintf('\n\n');
 
 disp('--- MATRICES ---');
 
@@ -44,12 +51,20 @@ C = ones(3,3); % All ones
 
 disp('Matrix A:');
 disp(A);
+fprintf('\n\n');
+
 
 disp('Identity matrix B:');
 disp(B);
 
+fprintf('\n\n');
+
 disp('Ones matrix C:');
 disp(C);
+
+fprintf('\n\n');
+fprintf('\n\n');
+
 
 disp('--- MATRIX OPERATIONS ---');
 
@@ -59,12 +74,17 @@ A_elem = A * C;   % element-wise
 
 disp('Transpose of A:');
 disp(A_transpose);
+fprintf('\n\n');
 
 disp('A * B =');
 disp(A_mul);
+fprintf('\n\n');
 
 disp('A * C =');
 disp(A_elem);
+fprintf('\n\n');
+fprintf('\n\n');
+
 
 disp('--- CALLING A FUNCTION ---');
 
@@ -74,6 +94,9 @@ stats = matrix_stats(A);
 
 disp('Matrix statistics:');
 disp(stats);
+fprintf('\n\n');
+fprintf('\n\n');
+
 
 D = rand(4,4);
 disp('Random matrix D:');
