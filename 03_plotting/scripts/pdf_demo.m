@@ -17,5 +17,8 @@ plot(x, p, 'LineWidth', 2);
 
 xlabel('x');
 ylabel('Probability Density');
-title('Gaussian Probability Density Function');
+title('Gaussian Probability Density Function', 'FontSize', 18);
 grid on;
+
+%hold on;
+%plot(1, .242, 'LineWidth', 2);

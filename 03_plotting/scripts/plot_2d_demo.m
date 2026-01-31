@@ -11,7 +11,7 @@ disp('--- 2D PLOT DEMO ---');
 [t, y] = generate_signal(2, 2);
 
 figure;
-plot(t, y, 'black', 'LineWidth', 2);
+plot(t, y, 'blue', 'LineWidth', 1);
 
 xlabel('Time (seconds)');
 ylabel('Amplitude');

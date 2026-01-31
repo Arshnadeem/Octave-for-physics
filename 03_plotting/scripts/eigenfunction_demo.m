@@ -8,7 +8,7 @@ addpath('/Users/mohdsamarnadeem/OctaveLearning/03_plotting/functions');
 L = 1;                 % Well length
 x = linspace(0, L, 1000);
 
-n = 1;                 % Quantum number (try 1,2,3...)
+n = 2;                 % Quantum number (try 1,2,3...)
 
 psi = infinite_well_eigenfunction(n, x, L);
 prob_density = psi.^2;
@@ -28,3 +28,6 @@ xlabel('x');
 ylabel('|\psi_n(x)|^2');
 title('Probability Density');
 grid on;
+
+save('../data/infinite_well_n2.mat', 'x', 'psi', 'prob_density', 'n', 'L');
+print('../figures/infinite_well_n2.png', '-dpng');
